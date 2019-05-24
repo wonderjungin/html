@@ -1,0 +1,37 @@
+*{box-sizing: border-box}
+header{
+    background-color: lightblue;
+    height: 50px;
+}
+
+body{margin: 0px;}
+
+.top{
+    background-color: lightblue;
+    height: 50px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin-bottom: 40px;
+}
+.main{ width: 60%;
+margin: 0 auto;}
+.middle{
+    border:10px;
+    border-color: coral;
+    border-style: ridge;
+    height:500px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.bottom{ display: flex;
+    justify-content: center;
+}
+
+.banner{ background-color: purple;
+height: 150px;
+width: 400px;
+}
+
